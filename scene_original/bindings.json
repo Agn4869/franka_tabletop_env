@@ -1,0 +1,98 @@
+{
+  "objects": {
+    "pick_object": {
+      "asset_id": "graspable_block",
+      "asset_selection": {
+        "selected_asset_id": "graspable_block",
+        "selection_mode": "explicit_asset"
+      },
+      "dynamic": true,
+      "grasp_annotations": [],
+      "initial_position_m": [
+        -0.06112156024794768,
+        0.21515875194682949,
+        0.787
+      ],
+      "initial_root_position_m": [
+        -0.06112156024794768,
+        0.21515875194682949,
+        0.787
+      ],
+      "initial_yaw_deg": 11.842081743561835,
+      "mass_kg": 0.15,
+      "object_id": "pick_object",
+      "physics_material_prim": "/World/PhysicsMaterial",
+      "prim_path": "/World/Objects/pick_object",
+      "rigid_body_prim": "/World/Objects/pick_object",
+      "semantic_class": "graspable_object",
+      "size_m": [
+        0.06,
+        0.05,
+        0.07
+      ],
+      "support_prim": "/World/Table/Top",
+      "visual_material_prim": "/World/Looks/pick_object",
+      "visual_shader_prim": "/World/Looks/pick_object/Shader"
+    },
+    "target_bin": {
+      "asset_id": "open_container",
+      "asset_selection": {
+        "selected_asset_id": "open_container",
+        "selection_mode": "explicit_asset"
+      },
+      "collision_prims": [
+        "/World/Objects/target_bin/Bottom",
+        "/World/Objects/target_bin/WallXMin",
+        "/World/Objects/target_bin/WallXMax",
+        "/World/Objects/target_bin/WallYMin",
+        "/World/Objects/target_bin/WallYMax"
+      ],
+      "dynamic": false,
+      "grasp_annotations": [],
+      "initial_position_m": [
+        0.28,
+        0.1,
+        0.81
+      ],
+      "initial_root_position_m": [
+        0.28,
+        0.1,
+        0.81
+      ],
+      "initial_yaw_deg": 0.0,
+      "inner_size_m": [
+        0.22,
+        0.18000000000000002,
+        0.11
+      ],
+      "interior_bounds_local_m": [
+        [
+          -0.11,
+          -0.09000000000000001,
+          -0.049999999999999996
+        ],
+        [
+          0.11,
+          0.09000000000000001,
+          0.06
+        ]
+      ],
+      "mass_kg": null,
+      "object_id": "target_bin",
+      "physics_material_prim": "/World/PhysicsMaterial",
+      "prim_path": "/World/Objects/target_bin",
+      "rigid_body_prim": null,
+      "semantic_class": "container",
+      "size_m": [
+        0.24,
+        0.2,
+        0.12
+      ],
+      "support_prim": "/World/Table/Top",
+      "visual_material_prim": "/World/Looks/target_bin",
+      "visual_shader_prim": "/World/Looks/target_bin/Shader",
+      "wall_thickness_m": 0.01
+    }
+  },
+  "schema_version": 1
+}

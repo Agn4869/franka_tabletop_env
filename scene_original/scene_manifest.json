@@ -1,0 +1,280 @@
+{
+  "asset_selection": {
+    "pick_object": {
+      "selected_asset_id": "graspable_block",
+      "selection_mode": "explicit_asset"
+    },
+    "target_bin": {
+      "selected_asset_id": "open_container",
+      "selection_mode": "explicit_asset"
+    }
+  },
+  "assets": {
+    "pick_object": {
+      "asset_id": "graspable_block",
+      "dependencies": null,
+      "dynamic": true,
+      "license": "self-authored primitive geometry",
+      "mass_kg": 0.15,
+      "path": null,
+      "prim_path": null,
+      "primitive": "box",
+      "semantic_class": "graspable_object",
+      "sha256": null,
+      "size_m": [
+        0.06,
+        0.06,
+        0.06
+      ],
+      "source_center_m": null,
+      "source_meters_per_unit": 1.0,
+      "source_up_axis": "Z"
+    },
+    "target_bin": {
+      "asset_id": "open_container",
+      "dependencies": null,
+      "dynamic": false,
+      "license": "self-authored primitive geometry",
+      "mass_kg": 0.15,
+      "path": null,
+      "prim_path": null,
+      "primitive": "open_container",
+      "semantic_class": "container",
+      "sha256": null,
+      "size_m": [
+        0.24,
+        0.2,
+        0.12
+      ],
+      "source_center_m": null,
+      "source_meters_per_unit": 1.0,
+      "source_up_axis": "Z"
+    }
+  },
+  "bindings": {
+    "pick_object": {
+      "asset_id": "graspable_block",
+      "asset_selection": {
+        "selected_asset_id": "graspable_block",
+        "selection_mode": "explicit_asset"
+      },
+      "dynamic": true,
+      "grasp_annotations": [],
+      "initial_position_m": [
+        -0.06112156024794768,
+        0.21515875194682949,
+        0.787
+      ],
+      "initial_root_position_m": [
+        -0.06112156024794768,
+        0.21515875194682949,
+        0.787
+      ],
+      "initial_yaw_deg": 11.842081743561835,
+      "mass_kg": 0.15,
+      "object_id": "pick_object",
+      "physics_material_prim": "/World/PhysicsMaterial",
+      "prim_path": "/World/Objects/pick_object",
+      "rigid_body_prim": "/World/Objects/pick_object",
+      "semantic_class": "graspable_object",
+      "size_m": [
+        0.06,
+        0.05,
+        0.07
+      ],
+      "support_prim": "/World/Table/Top",
+      "visual_material_prim": "/World/Looks/pick_object",
+      "visual_shader_prim": "/World/Looks/pick_object/Shader"
+    },
+    "target_bin": {
+      "asset_id": "open_container",
+      "asset_selection": {
+        "selected_asset_id": "open_container",
+        "selection_mode": "explicit_asset"
+      },
+      "collision_prims": [
+        "/World/Objects/target_bin/Bottom",
+        "/World/Objects/target_bin/WallXMin",
+        "/World/Objects/target_bin/WallXMax",
+        "/World/Objects/target_bin/WallYMin",
+        "/World/Objects/target_bin/WallYMax"
+      ],
+      "dynamic": false,
+      "grasp_annotations": [],
+      "initial_position_m": [
+        0.28,
+        0.1,
+        0.81
+      ],
+      "initial_root_position_m": [
+        0.28,
+        0.1,
+        0.81
+      ],
+      "initial_yaw_deg": 0.0,
+      "inner_size_m": [
+        0.22,
+        0.18000000000000002,
+        0.11
+      ],
+      "interior_bounds_local_m": [
+        [
+          -0.11,
+          -0.09000000000000001,
+          -0.049999999999999996
+        ],
+        [
+          0.11,
+          0.09000000000000001,
+          0.06
+        ]
+      ],
+      "mass_kg": null,
+      "object_id": "target_bin",
+      "physics_material_prim": "/World/PhysicsMaterial",
+      "prim_path": "/World/Objects/target_bin",
+      "rigid_body_prim": null,
+      "semantic_class": "container",
+      "size_m": [
+        0.24,
+        0.2,
+        0.12
+      ],
+      "support_prim": "/World/Table/Top",
+      "visual_material_prim": "/World/Looks/target_bin",
+      "visual_shader_prim": "/World/Looks/target_bin/Shader",
+      "wall_thickness_m": 0.01
+    }
+  },
+  "bindings_file": "/home/codex/baozhuang/shuchu/20260929-225626-智元GenieSim具身智能仿真环境开发实习岗位包/03-功能设计与代码/implementation/geniesim-features/artifacts/local-20260930-03/scene/bindings.json",
+  "config_sha256": "b3c5de235e05d02bdb80648866afa55cf28447f1c114a919f20981f5ac31788e",
+  "files": {
+    "bindings.json": "928ceec9db1900a2ce8a77008d750f2d9caf0b6ee2a1a68f0ecb17ff6a93ff7b",
+    "layout.usda": "4f1fcecf5616225f476c85483684555602d4ea8d69db7c9c5d8fe7f1dac5a735",
+    "scene.usda": "32de081095d20626f0e052e72e55dbc8e3d5184c9025dab89a6e35dae30cacd8"
+  },
+  "layout": [
+    {
+      "attempts": 1,
+      "object_id": "target_bin",
+      "position_m": [
+        0.28,
+        0.1,
+        0.81
+      ],
+      "reserved_footprint_m": [
+        0.24,
+        0.2
+      ],
+      "size_m": [
+        0.24,
+        0.2,
+        0.12
+      ],
+      "xy_m": [
+        0.28,
+        0.1
+      ],
+      "yaw_deg": 0.0
+    },
+    {
+      "attempts": 1,
+      "object_id": "pick_object",
+      "position_m": [
+        -0.06112156024794768,
+        0.21515875194682949,
+        0.787
+      ],
+      "reserved_footprint_m": [
+        0.06,
+        0.05
+      ],
+      "size_m": [
+        0.06,
+        0.05,
+        0.07
+      ],
+      "xy_m": [
+        -0.06112156024794768,
+        0.21515875194682949
+      ],
+      "yaw_deg": 11.842081743561835
+    }
+  ],
+  "layout_file": "/home/codex/baozhuang/shuchu/20260929-225626-智元GenieSim具身智能仿真环境开发实习岗位包/03-功能设计与代码/implementation/geniesim-features/artifacts/local-20260930-03/scene/layout.usda",
+  "physics_validated": false,
+  "resolved_config": {
+    "layout": {
+      "clearance_m": 0.03,
+      "max_attempts_per_object": 100,
+      "region_xy_m": [
+        [
+          -0.5,
+          -0.3
+        ],
+        [
+          0.5,
+          0.3
+        ]
+      ],
+      "support_gap_m": 0.002
+    },
+    "objects": [
+      {
+        "asset": "graspable_block",
+        "id": "pick_object",
+        "mass_kg": 0.15,
+        "size_m": [
+          0.06,
+          0.05,
+          0.07
+        ],
+        "yaw_deg": [
+          -30,
+          30
+        ]
+      },
+      {
+        "asset": "open_container",
+        "fixed_xy_m": [
+          0.28,
+          0.1
+        ],
+        "id": "target_bin",
+        "wall_thickness_m": 0.01,
+        "yaw_deg": 0
+      }
+    ],
+    "scene_id": "tabletop_pick_place",
+    "schema_version": 1,
+    "seed": 42,
+    "table": {
+      "size_m": [
+        1.2,
+        0.8,
+        0.05
+      ],
+      "top_z_m": 0.75
+    },
+    "world": {
+      "meters_per_unit": 1.0,
+      "up_axis": "Z"
+    }
+  },
+  "scene_file": "/home/codex/baozhuang/shuchu/20260929-225626-智元GenieSim具身智能仿真环境开发实习岗位包/03-功能设计与代码/implementation/geniesim-features/artifacts/local-20260930-03/scene/scene.usda",
+  "scene_id": "tabletop_pick_place",
+  "schema_version": 1,
+  "seed": 42,
+  "status": "authored",
+  "validation": {
+    "obb_layout": "passed",
+    "physics_stability": "not_run",
+    "robot_reachability": "not_run",
+    "usd_composition": "passed"
+  },
+  "world": {
+    "meters_per_unit": 1.0,
+    "quaternion_order": "wxyz",
+    "up_axis": "Z"
+  }
+}
