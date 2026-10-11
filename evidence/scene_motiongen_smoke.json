@@ -1,0 +1,529 @@
+{
+  "schema_version": 1,
+  "planner": "cuRobo MotionGen.plan_single",
+  "execution_mode": "plan_only_no_physics_grasp_or_execution",
+  "success": false,
+  "status": "MotionGenStatus.IK_FAIL",
+  "scene_usd": "/root/franka_tabletop_env/scene_original/scene.usda",
+  "scene_sha256": "32de081095d20626f0e052e72e55dbc8e3d5184c9025dab89a6e35dae30cacd8",
+  "layout_sha256": "4f1fcecf5616225f476c85483684555602d4ea8d69db7c9c5d8fe7f1dac5a735",
+  "curobo_robot_config": {
+    "path": "/root/curobo076/src/curobo/content/configs/robot/franka.yml",
+    "sha256": "c809e9c1d044c8cf98d888552fb55739077419fb3568d5e696242cdecb457430",
+    "base_link": "panda_link0",
+    "ee_link": "panda_hand"
+  },
+  "robot": {
+    "isaac_usd": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/FrankaRobotics/FrankaPanda/franka.usd",
+    "curobo_config": "franka.yml",
+    "base_link": "panda_link0",
+    "ee_link": "panda_hand",
+    "base_world_from_base_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -0.061121564358472824
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.06484124809503555
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.75
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "initial_recorded_joint_positions_9": [
+      0.01525379,
+      -0.56900465,
+      0.00348463,
+      -2.814394,
+      -0.00024997,
+      3.0262239,
+      0.74147195,
+      0.0399972,
+      0.0399972
+    ],
+    "start_measured_joint_positions_9": [
+      0.015259812586009502,
+      -0.5678244233131409,
+      0.0034924233332276344,
+      -2.815446138381958,
+      -0.00023665829212404788,
+      3.026179313659668,
+      0.741470456123352,
+      0.03999720513820648,
+      0.03999720886349678
+    ],
+    "planned_joint_names": [
+      "panda_joint1",
+      "panda_joint2",
+      "panda_joint3",
+      "panda_joint4",
+      "panda_joint5",
+      "panda_joint6",
+      "panda_joint7"
+    ],
+    "start_hand_world_xyz_m": [
+      0.32723405957221985,
+      -0.0575270839035511,
+      1.2032071352005005
+    ],
+    "start_hand_world_quaternion_wxyz": [
+      0.005807205568999052,
+      0.9247223734855652,
+      0.029196973890066147,
+      0.37947648763656616
+    ]
+  },
+  "scene_measurements": {
+    "table_bounds_world_min_m": [
+      -0.6000000238418579,
+      -0.4000000059604645,
+      0.699999999627471
+    ],
+    "table_bounds_world_max_m": [
+      0.6000000238418579,
+      0.4000000059604645,
+      0.750000000372529
+    ],
+    "object_initial_bounds_world_min_m": [
+      -0.09561344115557752,
+      0.18453438014908508,
+      0.7519999998509884
+    ],
+    "object_initial_bounds_world_max_m": [
+      -0.026629679340317843,
+      0.2457831237445739,
+      0.8220000001490116
+    ],
+    "object_settled_world_xyz_m": [
+      -0.06112305819988251,
+      0.21515607833862305,
+      0.7849997282028198
+    ],
+    "object_settled_quaternion_wxyz": [
+      0.9946649074554443,
+      1.5061280464578886e-05,
+      -6.972473329369677e-06,
+      0.10315883159637451
+    ],
+    "object_settled_yaw_rad": 0.20668535882584207
+  },
+  "calibration": {
+    "source": "verified_original_scene_PhysX_episode_event_2_pregrasp",
+    "object_world_xyz_m": [
+      -0.06112306,
+      0.21515608,
+      0.78499973
+    ],
+    "object_yaw_rad": 0.20668536,
+    "hand_world_xyz_m": [
+      -0.06166404,
+      0.21506295,
+      0.88585043
+    ],
+    "hand_quaternion_wxyz": [
+      0.00052861,
+      0.99452007,
+      0.10454434,
+      0.00039371
+    ]
+  },
+  "goal": {
+    "frame": "panda_link0",
+    "ee_link": "panda_hand",
+    "world_xyz_m": [
+      -0.06166403819999186,
+      0.21506294833925824,
+      0.8858504282028198
+    ],
+    "world_quaternion_wxyz": [
+      0.0005286100002311389,
+      0.9945200700613758,
+      0.10454433941613818,
+      0.00039370999968966423
+    ],
+    "base_xyz_m": [
+      -0.0005424738415190367,
+      0.27990419643429376,
+      0.13585042820281978
+    ],
+    "base_quaternion_wxyz": [
+      0.0005286099676965346,
+      0.9945200088511889,
+      0.10454433298169935,
+      0.00039370997545781273
+    ],
+    "measured_hand_minus_object_world_xyz_m": [
+      -0.0005409800000000034,
+      -9.312999999999683e-05,
+      0.10085069999999996
+    ],
+    "live_object_minus_calibration_yaw_rad": -1.1741579375446065e-09
+  },
+  "world_obstacles": [
+    {
+      "prim_path": "/World/Ground",
+      "type": "enabled_USD_Cube_collision",
+      "center_world_xyz_m": [
+        0.0,
+        0.0,
+        -0.025
+      ],
+      "quaternion_world_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pose_base_xyz_wxyz": [
+        0.061121564358472824,
+        0.06484124809503555,
+        -0.775,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims_m": [
+        3.0,
+        3.0,
+        0.05000000074505806
+      ]
+    },
+    {
+      "prim_path": "/World/Objects/pick_object/Geometry",
+      "type": "enabled_USD_Cube_collision",
+      "center_world_xyz_m": [
+        -0.06112305819988251,
+        0.21515607833862305,
+        0.7849997282028198
+      ],
+      "quaternion_world_wxyz": [
+        0.9946649074554443,
+        1.5061264234501807e-05,
+        -6.972465815813319e-06,
+        0.10315872043213505
+      ],
+      "pose_base_xyz_wxyz": [
+        -1.4938414096832275e-06,
+        0.2799973264336586,
+        0.034999728202819824,
+        0.9946649074554443,
+        1.5061264234501807e-05,
+        -6.972465815813319e-06,
+        0.10315872043213505
+      ],
+      "dims_m": [
+        0.05999999865889549,
+        0.05000000074505806,
+        0.07000000029802322
+      ]
+    },
+    {
+      "prim_path": "/World/Objects/target_bin/Bottom",
+      "type": "enabled_USD_Cube_collision",
+      "center_world_xyz_m": [
+        0.28,
+        0.1,
+        0.755
+      ],
+      "quaternion_world_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pose_base_xyz_wxyz": [
+        0.34112156435847285,
+        0.16484124809503556,
+        0.0050000000000000044,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims_m": [
+        0.23999999463558197,
+        0.20000000298023224,
+        0.009999999776482582
+      ]
+    },
+    {
+      "prim_path": "/World/Objects/target_bin/WallXMax",
+      "type": "enabled_USD_Cube_collision",
+      "center_world_xyz_m": [
+        0.395,
+        0.1,
+        0.8150000000000001
+      ],
+      "quaternion_world_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pose_base_xyz_wxyz": [
+        0.45612156435847284,
+        0.16484124809503556,
+        0.06500000000000006,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims_m": [
+        0.009999999776482582,
+        0.20000000298023224,
+        0.10999999940395355
+      ]
+    },
+    {
+      "prim_path": "/World/Objects/target_bin/WallXMin",
+      "type": "enabled_USD_Cube_collision",
+      "center_world_xyz_m": [
+        0.16500000000000004,
+        0.1,
+        0.8150000000000001
+      ],
+      "quaternion_world_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pose_base_xyz_wxyz": [
+        0.22612156435847286,
+        0.16484124809503556,
+        0.06500000000000006,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims_m": [
+        0.009999999776482582,
+        0.20000000298023224,
+        0.10999999940395355
+      ]
+    },
+    {
+      "prim_path": "/World/Objects/target_bin/WallYMax",
+      "type": "enabled_USD_Cube_collision",
+      "center_world_xyz_m": [
+        0.28,
+        0.195,
+        0.8150000000000001
+      ],
+      "quaternion_world_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pose_base_xyz_wxyz": [
+        0.34112156435847285,
+        0.25984124809503556,
+        0.06500000000000006,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims_m": [
+        0.2199999988079071,
+        0.009999999776482582,
+        0.10999999940395355
+      ]
+    },
+    {
+      "prim_path": "/World/Objects/target_bin/WallYMin",
+      "type": "enabled_USD_Cube_collision",
+      "center_world_xyz_m": [
+        0.28,
+        0.0050000000000000044,
+        0.8150000000000001
+      ],
+      "quaternion_world_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pose_base_xyz_wxyz": [
+        0.34112156435847285,
+        0.06984124809503556,
+        0.06500000000000006,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims_m": [
+        0.2199999988079071,
+        0.009999999776482582,
+        0.10999999940395355
+      ]
+    },
+    {
+      "prim_path": "/World/Table/Leg0",
+      "type": "enabled_USD_Cube_collision",
+      "center_world_xyz_m": [
+        -0.5725,
+        -0.3725,
+        0.35
+      ],
+      "quaternion_world_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pose_base_xyz_wxyz": [
+        -0.5113784356415272,
+        -0.30765875190496444,
+        -0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims_m": [
+        0.054999999701976776,
+        0.054999999701976776,
+        0.699999988079071
+      ]
+    },
+    {
+      "prim_path": "/World/Table/Leg1",
+      "type": "enabled_USD_Cube_collision",
+      "center_world_xyz_m": [
+        -0.5725,
+        0.3725,
+        0.35
+      ],
+      "quaternion_world_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pose_base_xyz_wxyz": [
+        -0.5113784356415272,
+        0.43734124809503555,
+        -0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims_m": [
+        0.054999999701976776,
+        0.054999999701976776,
+        0.699999988079071
+      ]
+    },
+    {
+      "prim_path": "/World/Table/Leg2",
+      "type": "enabled_USD_Cube_collision",
+      "center_world_xyz_m": [
+        0.5725,
+        -0.3725,
+        0.35
+      ],
+      "quaternion_world_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pose_base_xyz_wxyz": [
+        0.6336215643584728,
+        -0.30765875190496444,
+        -0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims_m": [
+        0.054999999701976776,
+        0.054999999701976776,
+        0.699999988079071
+      ]
+    },
+    {
+      "prim_path": "/World/Table/Leg3",
+      "type": "enabled_USD_Cube_collision",
+      "center_world_xyz_m": [
+        0.5725,
+        0.3725,
+        0.35
+      ],
+      "quaternion_world_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pose_base_xyz_wxyz": [
+        0.6336215643584728,
+        0.43734124809503555,
+        -0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims_m": [
+        0.054999999701976776,
+        0.054999999701976776,
+        0.699999988079071
+      ]
+    },
+    {
+      "prim_path": "/World/Table/Top",
+      "type": "enabled_USD_Cube_collision",
+      "center_world_xyz_m": [
+        0.0,
+        0.0,
+        0.725
+      ],
+      "quaternion_world_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pose_base_xyz_wxyz": [
+        0.061121564358472824,
+        0.06484124809503555,
+        -0.025000000000000022,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims_m": [
+        1.2000000476837158,
+        0.800000011920929,
+        0.05000000074505806
+      ]
+    }
+  ],
+  "world_obstacle_count": 12,
+  "waypoints": [],
+  "waypoint_count": 0
+}

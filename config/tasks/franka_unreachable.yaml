@@ -1,0 +1,9 @@
+schema_version: 1
+object_id: pick_object
+target_bin_id: target_bin
+base_offset_xy_m: [0.0, -0.28]
+grasp_offset_z_m: 0.0
+settle_steps: 120
+# Deliberately request placement well beyond Franka's reach. This is a negative
+# control; the original blue bin and source scene are not moved or edited.
+placement_offset_xy_m: [2.0, 0.0]

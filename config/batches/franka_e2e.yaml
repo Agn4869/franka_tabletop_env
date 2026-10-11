@@ -1,0 +1,21 @@
+schema_version: 1
+batch_id: franka_e2e
+defaults:
+  mode: franka-demonstrate
+  scene: ../../scene_original
+  randomization_config: ../randomization/franka_surface.yaml
+  sensor_config: ../sensors/franka_fixed.yaml
+  task: ../tasks/franka_pick_place.yaml
+  physics_hz: 60
+  control_hz: 60
+  max_intervals: 3600
+  timeout_seconds: 3600
+  headless: true
+episodes:
+  - id: appearance_seed_7
+    seed: 7
+  - id: appearance_seed_19
+    seed: 19
+  - id: deliberate_unreachable
+    seed: 7
+    task: ../tasks/franka_unreachable.yaml

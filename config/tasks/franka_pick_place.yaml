@@ -1,0 +1,9 @@
+schema_version: 1
+backend: franka_pickplace
+object_id: pick_object
+target_bin_id: target_bin
+# Franka base is positioned relative to the observed block centre on the table.
+base_offset_xy_m: [0.0, -0.28]
+grasp_offset_z_m: 0.0
+# Continue stepping the real scene after release to verify the whole block settles in the bin.
+settle_steps: 120

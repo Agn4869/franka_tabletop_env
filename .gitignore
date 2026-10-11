@@ -9,3 +9,6 @@ __pycache__/
 *.sqlite*
 *.pem
 *.key
+evidence/geniesim_e2e_success/
+evidence/curobo_new_run/
+evidence/curobo_motiongen_success/full_episode.tar.zst

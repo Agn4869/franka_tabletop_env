@@ -1,0 +1,17 @@
+schema_version: 1
+visibility:
+  required_objects: [pick_object]
+  min_visible_pixels: 4
+# The original fixed-camera schema and IsaacSensorRig; small frames keep every-action
+# RGB/depth/instance capture bounded on a 12 GB server without skipping observations.
+cameras:
+  - id: overhead
+    prim_path: /World/Cameras/overhead
+    position_m: [0.1, 0.0, 1.8]
+    look_at_world_m: [0.1, 0.0, 0.75]
+    resolution: [128, 96]
+    near: 0.01
+    far: 10.0
+    focal_length_mm: 24.0
+    horizontal_aperture_mm: 36.0
+    vertical_aperture_mm: 27.0

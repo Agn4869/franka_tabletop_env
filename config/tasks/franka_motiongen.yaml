@@ -1,0 +1,8 @@
+schema_version: 1
+backend: curobo_motiongen
+object_id: pick_object
+target_bin_id: target_bin
+base_offset_xy_m: [0.0, -0.28]
+# This backend uses the measured original tabletop Franka hand/object calibration.
+grasp_offset_z_m: 0.0
+settle_steps: 120

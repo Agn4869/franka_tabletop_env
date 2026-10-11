@@ -1,0 +1,23 @@
+{
+  "planner": "cuRobo MotionGen.plan_single",
+  "robot": "franka.yml",
+  "success": true,
+  "status": "None",
+  "joint_names": [
+    "panda_joint1",
+    "panda_joint2",
+    "panda_joint3",
+    "panda_joint4",
+    "panda_joint5",
+    "panda_joint6",
+    "panda_joint7"
+  ],
+  "goal_base_xyz_m": [
+    0.5,
+    0,
+    0.3
+  ],
+  "scene": "official_free_space_smoke_not_tabletop",
+  "waypoints": 61,
+  "interpolation_dt_s": 0.02
+}
